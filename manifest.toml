@@ -1,0 +1,72 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/main/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "wikidocs"
+name = "WikiDocs"
+description.en = "Databaseless markdown flat-file wiki engine"
+description.fr = "Moteur wiki à fichiers plats sans base de données"
+
+version = "1.0.81~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://www.wikidocs.app/"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+userdoc = "https://yunohost.org/apps"
+code = "https://github.com/Zavy86/WikiDocs?ref=selfh.st"
+
+[integration]
+yunohost = ">= 12.1.17"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/wikidoc"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = [ "en", "de", "es", "fa", "fr", "it", "nl", "pt", "ru", "zh-hans", "zh-hant" ]
+    default = "fr"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://github.com/Zavy86/WikiDocs/archive/refs/tags/1.0.81.tar.gz"
+    sha256 = "fcaf8646f50ce63a713f4e9214939c8e53e473f29e6686efa9f8753368d738ac"
+
+    autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.3-fpm, php8.3-dom, php8.3-mbstring, php8.3-xml"
