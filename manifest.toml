@@ -14,8 +14,9 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 website = "https://www.wikidocs.app/"
-demo = "https://www.wikidocs.app/"
+demo = "http://demo.wikidocs.app"
 code = "https://github.com/Zavy86/WikiDocs?ref=selfh.st"
+fund = "https://www.paypal.com/paypalme/zavy86"
 
 [integration]
 yunohost = ">= 12.1.17"

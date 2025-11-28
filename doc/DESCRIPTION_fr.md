@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Un simple moteur wiki sans base de données.

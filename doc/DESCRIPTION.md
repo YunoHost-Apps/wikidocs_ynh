@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Just a databaseless markdown flat-file wiki engine.
