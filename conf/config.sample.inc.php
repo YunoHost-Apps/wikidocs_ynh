@@ -10,8 +10,7 @@
 define('DEBUGGABLE',false);
 // Localization [ en, de, es, fa, fr, it, nl, pt, ru, zh-hans, zh-hant ]
 define('LANG',"__LANGUAGE__");
-// Application title
-define('PATH',"/");
+// Application "__PATH__");
 // Application title
 define('TITLE',"Wiki|Docs");
 // Application subtitle
