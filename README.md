@@ -11,7 +11,7 @@ It shall NOT be edited by hand.
 Databaseless markdown flat-file wiki engine
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.wikidocs.app/)
-[![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://www.wikidocs.app/)
+[![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](http://demo.wikidocs.app)
 [![Version: 1.0.81~ynh1](https://img.shields.io/badge/Version-1.0.81~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/wikidocs/)
 
 <div align="center">
