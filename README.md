@@ -21,7 +21,7 @@ Databaseless markdown flat-file wiki engine
 
 
 ## Screenshots
-![Screenshot of WikiDocs](./doc/screenshots/screenshot.png.png)
+![Screenshot of WikiDocs](./doc/screenshots/screenshot.png)
 
 ## 📦 Developer info
 
