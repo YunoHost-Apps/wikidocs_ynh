@@ -14,10 +14,9 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 website = "https://www.wikidocs.app/"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+demo = "http://demo.wikidocs.app"
 code = "https://github.com/Zavy86/WikiDocs?ref=selfh.st"
+fund = "https://www.paypal.com/paypalme/zavy86"
 
 [integration]
 yunohost = ">= 12.1.17"
@@ -35,10 +34,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-
-    [install.path]
-    type = "path"
-    default = "/wikidoc"
 
     [install.init_main_permission]
     type = "group"
