@@ -27,7 +27,7 @@ Databaseless markdown flat-file wiki engine
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/wikidocs)](https://ci-apps.yunohost.org/ci/apps/wikidocs/)
 
-🛠️ Upstream WikiDocs repository: <https://github.com/Zavy86/WikiDocs?ref=selfh.st>
+🛠️ Upstream WikiDocs repository: <https://github.com/Zavy86/WikiDocs>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/wikidocs_ynh/tree/testing).
 
