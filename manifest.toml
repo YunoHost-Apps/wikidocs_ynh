@@ -15,7 +15,7 @@ maintainers = ["eric_G"]
 license = "MIT"
 website = "https://www.wikidocs.app/"
 demo = "http://demo.wikidocs.app"
-code = "https://github.com/Zavy86/WikiDocs?ref=selfh.st"
+code = "https://github.com/Zavy86/WikiDocs"
 fund = "https://www.paypal.com/paypalme/zavy86"
 
 [integration]
