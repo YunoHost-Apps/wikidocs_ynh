@@ -12,7 +12,7 @@ Databaseless markdown flat-file wiki engine
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.wikidocs.app/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](http://demo.wikidocs.app)
-[![Version: 1.0.81~ynh1](https://img.shields.io/badge/Version-1.0.81~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/wikidocs/)
+[![Version: 1.0.82~ynh1](https://img.shields.io/badge/Version-1.0.82~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/wikidocs/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/wikidocs"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -27,7 +27,7 @@ Databaseless markdown flat-file wiki engine
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/wikidocs)](https://ci-apps.yunohost.org/ci/apps/wikidocs/)
 
-🛠️ Upstream WikiDocs repository: <https://github.com/Zavy86/WikiDocs?ref=selfh.st>
+🛠️ Upstream WikiDocs repository: <https://github.com/Zavy86/WikiDocs>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/wikidocs_ynh/tree/testing).
 
