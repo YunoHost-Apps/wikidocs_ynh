@@ -52,7 +52,7 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     url = "https://github.com/Zavy86/WikiDocs/archive/refs/tags/1.0.93.tar.gz"
-    sha256 = "c7310f9d13ab2528e9af6fae2a3f823c73fe70fba03deb9e69d136dcfc231844"
+    sha256 = "2c9b6db73b179111c9ed7e8fc56d5d37ec5aa518594dd90ebe75241923eaab8f"
 
     autoupdate.strategy = "latest_github_tag"
 
