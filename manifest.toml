@@ -19,7 +19,7 @@ code = "https://github.com/Zavy86/WikiDocs"
 fund = "https://www.paypal.com/paypalme/zavy86"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -59,9 +59,10 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
-
+    group = "www-data:r-x"
+    
     [resources.permissions]
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-fpm, php8.3-dom, php8.3-mbstring, php8.3-xml"
+    packages = "php8.5-dom, php8.5-mbstring, php8.5-xml"
