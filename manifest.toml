@@ -7,7 +7,7 @@ name = "WikiDocs"
 description.en = "Databaseless markdown flat-file wiki engine"
 description.fr = "Moteur wiki à fichiers plats sans base de données"
 
-version = "1.0.93~ynh1"
+version = "1.0.93~ynh2"
 
 maintainers = ["eric_G"]
 
