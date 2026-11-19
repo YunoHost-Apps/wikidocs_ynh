@@ -7,7 +7,7 @@ name = "WikiDocs"
 description.en = "Databaseless markdown flat-file wiki engine"
 description.fr = "Moteur wiki à fichiers plats sans base de données"
 
-version = "1.0.96~ynh1"
+version = "2.0.6~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -51,8 +51,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/Zavy86/WikiDocs/archive/refs/tags/1.0.96.tar.gz"
-    sha256 = "5b544bdf40f00c0cd29f20e5f0737e2f14432fc4ca5f92f0867e2d9f51580176"
+    url = "https://github.com/Zavy86/WikiDocs/archive/refs/tags/2.0.6.tar.gz"
+    sha256 = "e4c68d03ee2302834555893ce0a10e158a4c8a43bffb4a3dc393ff9e551164ed"
 
     autoupdate.strategy = "latest_github_tag"
 
